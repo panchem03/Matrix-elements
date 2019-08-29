@@ -1,2 +1,2 @@
 # Matrix-elements
- Matrix element calculation of two uncoupled morse oscilator
+This code computes matrix elements of two uncoupled Morse oscillators.
