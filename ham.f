@@ -7,11 +7,11 @@
 
        double precision H0(N1,N2,N1,N2),V(NDAT)
 
-       umu=916.675d0
-       D0=0.1744d0
-       alpha=1.02764d0
-       xe=1.40201d0
-       zpi=4.0d0*atan(1.0d0) 
+       umu=916.675d0          ! Reduced mass
+       D0=0.1744d0            ! Dissociation energy
+       alpha=1.02764d0        ! Morse parameter
+       xe=1.40201d0           ! Equilibrium bond length
+       zpi=4.0d0*atan(1.0d0)  !  Pi at machine accuracy
        nn1=(N1-1)/2.0d0
        nn2=(N2-1)/2.0d0
        hbar=1.0d0
